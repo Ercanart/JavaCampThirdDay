@@ -12,12 +12,12 @@ public class Main {
 		
 		newUserI.newUserAdd(new InstructorManager());
 		
-		StudentManager studentManager = new StudentManager(); //Ogrenci metotları icin
+		StudentManager studentManager = new StudentManager(); //Ogrenci metotlari icin
 		
 		studentManager.addStudent(student1);
 		studentManager.delete(student2);
 		
-		InstructorManager instructorManager = new InstructorManager(); //Egitmen metotları icin
+		InstructorManager instructorManager = new InstructorManager(); //Egitmen metotlari icin
 		
 		instructorManager.delete(instructor2);
 		instructorManager.addInstructor(instructor1);
